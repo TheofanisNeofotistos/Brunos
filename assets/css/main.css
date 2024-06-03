@@ -1852,7 +1852,9 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			/* color: #e97770 !important; */
+			color: goldenrod !important;
+
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2004,13 +2006,16 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			/* background: #e97770 url("images/overlay.png"); */
+			background: goldenrod url("images/overlay.png");
+
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
 				background: #e97770 url("images/overlay.png");
+				background: goldenrod url("images/overlay.png");
 				color: #fff;
 			}
 
