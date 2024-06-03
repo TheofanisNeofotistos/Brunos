@@ -1657,7 +1657,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			/* background-color: #f98780; */
+			background-color: gold;
 		}
 
 		input[type="button"].large,
@@ -1674,7 +1675,8 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			/* background: #e97770 url("images/overlay.png"); */
+			background: goldenrod url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1683,7 +1685,8 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				/* background-color: #f98780; */
+				background-color: gold;
 			}
 
 			input[type="button"].style1:active,
@@ -1691,7 +1694,8 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				/* background-color: #d96760; */
+				background-color: gold;
 			}
 
 		input[type="button"].style2,
@@ -2268,7 +2272,9 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			/* color: #e97770; */
+			color: goldenrod;
+
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2989,4 +2995,8 @@ input, select, textarea {
 							margin-top: 0;
 						}
 
+	}
+
+	.insta{
+		font-size: larger;
 	}
