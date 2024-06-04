@@ -121,7 +121,7 @@ input, select, textarea {
 		-webkit-transition: color .25s ease-in-out;
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
-		text-decoration: underline;
+		text-decoration: none;
 		color: #717479;
 	}
 
@@ -2536,9 +2536,9 @@ input, select, textarea {
 
 		/* Nav */
 
-			#nav {
+			/* #nav {
 				display: none;
-			}
+			} */
 
 		/* Logo */
 
@@ -2999,6 +2999,6 @@ input, select, textarea {
 	}
 
 	#logos{
-		/* position: absolute; */
-		margin-right: 90%;
+		position: absolute;
+		margin-right: 97%;
 	}
